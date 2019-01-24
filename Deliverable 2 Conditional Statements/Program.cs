@@ -18,7 +18,7 @@ namespace Deliverable_2_Conditional_Statements
         static void Main(string[] args)
         {
             //Ask the user for input
-            Console.WriteLine("Please enter the grade you expect to get in ISM 4300...");
+            Console.WriteLine("What grade do you expect to recieve in ISM4300?");
 
             //Use try catch to catch bad user input
             try
@@ -89,7 +89,7 @@ namespace Deliverable_2_Conditional_Statements
                     Console.WriteLine("D-");
                     Console.ReadKey(true);
                 }
-                else if (letterGrade >= 59 && letterGrade <= 0)
+                else if (letterGrade <=59)
                 {
                     Console.WriteLine("F");
                     Console.ReadKey(true);
@@ -104,6 +104,6 @@ namespace Deliverable_2_Conditional_Statements
                 Console.ReadKey(true);
             } // End of catch
 
-        }
-    }
-}
+        } // End of main
+    } // End of class
+} // End of namespace
